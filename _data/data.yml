@@ -115,10 +115,11 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: PhD Candidate - "Flicker noise impact on the design methodology of SiGe BiCMOS integrated circuits for astronomical observations"
+  - role: PhD Candidate 
     time: December 2023 - Present
     company: Université Paris Cité, CNRS, Astroparticule et Cosmologie
     details: |
+        - Topic: Flicker noise impact on the design methodology of SiGe BiCMOS integrated circuits for astronomical observations"
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
       Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -130,25 +131,29 @@ experiences:
       architecto beatae vitae dicta sunt explicabo.
         - Bullet point
         - Bullet point
-  - role: Master 2's Internship - "High Sensitive On-Chip BiMOS Thermometer with Differential readout and Offset Nulling"
+  - role: Master 2's Internship
     time: March 2023 - September 2023
     company: Labo APC, Bâtiment Condorcet, 10 rue A. Domon et L. Duquet, 75013, Paris, France
     details: |
+       - Topic: High Sensitive On-Chip BiMOS Thermometer with Differential readout and Offset Nulling
       This is the Master 2 thesis. Study the state of the art of "on-chip" thermometry techniques, specially studying the AD590 thermometer as an existing example. Then establish a trade-offs between technology, supply voltage, power consumption and sensitivity of the design of such an "on-chip" thermometer.
-  - role: Master 1's Internship - "Image noise and Aberration simulation for astrophotography with Ground-Based Telescope"
+  - role: Master 1's Internship 
     time: July 2022 to August 2022
     company: International Centre for Interdisciplinary Science and Education (ICISE)
     details: |
+      - Topic: Light Sensitive Photon Sensor SiPM
       During the project, my main work is study the properties of the Silicon Photon-multiplier (SiPMs) and do the experiment with SiPMs readout circuit to understand the signal then be able to change its shape. During the internship, we are also able to use the LTspice analog simulation software to simulate the SiPMs, combined with the readout circuit and then provide the simulated signal.
-  - role: Bachelor's Internship - "Image noise and Aberration simulation for astrophotography with Ground-Based Telescope"
+  - role: Bachelor's Internship 
     time: April 2021 - July 2021
     company: Vietnam National Space Center (VNSC)
     details: |
+      - Topic: Image noise and Aberration simulation for astrophotography with Ground-Based Telescope
       This is the Bachelor thesis. During the project, my main work is study different types of noises and aberration effect happened during astrophotography process. Noises often came from the capturing, transferring and reading process of the CCD. Beside of that, the aberration came from the curvature of the lens and the structure of the system. My work is to simulate these effect using the Matlab language and Matlab GUI interface.
-  - role: Bachelor's Group Project - "Cosmic Ray Muon study for imaging the hiddenstructure"
+  - role: Bachelor's Group Project 
     time: December 2020 to February 2021
     company: University of Science and Technology at Hanoi (USTH)
     details: |
+      - Topic: Cosmic Ray Muon study for imaging the hiddenstructure
       This is the group project of B3 Class, which acts like a prototype for student to prepare their skill before the internship and the final thesis. During the project, my main work is study the nature of Muon particles and its application in radiographyfor imaging the hidden structure. Our team has a chance to studied do some experiments relate to Muon counters such as counting the dark count rate (DCR) with Nuclear Instrumentation Module (NIM) board, discriminator and dual timer and using the generated data using the DRS4 board
 
 certifications:
