@@ -10,7 +10,7 @@ sidebar:
   # Profile information
   name: Ton That Minh Bao
   tagline: PhD Candidate at Astroparticule et Cosmologie Laboratoire (APC)
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: ID_baoton.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: ton@apc.in2p3.fr
@@ -64,12 +64,16 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I have received the B.S. and M.S. degrees
+    from the University of Science and Technology at
+    Hanoi (USTH), Vietnam. I'm currently pursuing
+    the Ph.D. degree at the Astroparticle and Cosmol-
+    ogy Laboratory (APC), Universit´e Paris Cit´e, Paris,
+    France, which he started in December 2023. My
+    research focuses on the impact of flicker noise on
+    the design methodology of SiGe BiCMOS integrated
+    circuits for astronomical observations. I'm also a
+    member of the R&T BiCMOS Project
 education:
   title: Education
   info:
