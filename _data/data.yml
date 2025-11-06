@@ -119,7 +119,7 @@ experiences:
     time: December 2023 - Present
     company: Université Paris Cité, CNRS, Astroparticule et Cosmologie
     details: |
-        - Topic: Flicker noise impact on the design methodology of SiGe BiCMOS integrated circuits for astronomical observations"
+      Topic: Flicker noise impact on the design methodology of SiGe BiCMOS integrated circuits for astronomical observations"
   - role: Master 2's Internship
     time: March 2023 - September 2023
     company: Labo APC, Bâtiment Condorcet, 10 rue A. Domon et L. Duquet, 75013, Paris, France
@@ -194,12 +194,12 @@ publications:
   - title: "Setting Point and Operation Range of a BiCMOS On-Chip BiCMOS Thermometer"
     link: "#"
     authors: B. TON, S. CHEN, D. PRELE, M. GONZALEZ
-    journal: Journal of Sensor and Transducer
+    conference: Journal of Sensor and Transducer
 
   - title: "High Sensitivity On-chip BiCMOS Thermometer with Differential Output and Offset Nulling"
     link: "#"
     authors: B. TON, S. CHEN, D. PRELE, M. GONZALEZ
-    conference: "International Conference on Microelectronic Devices and Technologies (MicDAT '2023)At: Funchal (Madeira Island), Portugal"
+    conference: "International Conference on Microelectronic Devices and Technologies (**MicDAT '2023**)At: Funchal (Madeira Island), Portugal"
 
   - title: Impact of space ionizing environment on the warm front-end electronics flicker noise used for TES/SQUID readout
     link: "#"
