@@ -70,7 +70,7 @@ career-profile:
     Hanoi (USTH), Vietnam. I'm currently pursuing
     the Ph.D. degree at the Astroparticle and Cosmol-
     ogy Laboratory (APC), Université Paris Cité, Paris,
-    France, which he started in December 2023. My
+    France, which I started in December 2023. My
     research focuses on the impact of flicker noise on
     the design methodology of SiGe BiCMOS integrated
     circuits for astronomical observations. I'm also a
@@ -216,18 +216,22 @@ communications:
       time: '16-22 Jun 2024'
       type: 'Poster presentation'
       link: 'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13092.toc'
+
     - title: ' AIDAinnova Course on Quantum Applications'
       time: '23-24 Jan 2025'
       type: 'Poster presentation'
       link: 'https://indico.cern.ch/event/1441944/'
+
     - title: ' Low Temperature Detectors Conference'
       time: '1-6 Jun 2025'
       type: 'Oral presentation'
       link: 'https://web.cvent.com/event/22930724-c2e8-4b3b-93f6-2c7170746141/summary'
+
     - title: ' Noise sizing of Cryogenic Low-noise Amplifier with IHP technology'
       time: '24-26 Jun 2025'
       type: 'Oral presentation'
       link: 'https://indico.cern.ch/event/1441944/'
+      
     - title: ' Journée CNES de Jeunes Chercheurs '
       time: '15-17 Oct 2025'
       type: 'Poster presentation'

@@ -1,0 +1,35 @@
+{% assign communications = site.data.data.communications %}
+{% if communications %}
+<section class="section communications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ communications.title }}
+  </h2>
+
+  {% if communications.intro %}
+  <div class="intro">
+    {{ communications.intro | markdownify }}
+  </div>{% endif %}
+
+  {% for comm in communications.entries %}
+  <div class="item">
+    
+    <div class="communication-title">
+      {% if comm.link %}
+        <a href="{{ comm.link }}" target="_blank">{{ comm.title }}</a>
+      {% else %}
+        {{ comm.title }}
+      {% endif %}
+    </div>
+    
+    <div class="communication-time">{{ comm.time }}</div>
+
+    <div class="communication-type">{{ comm.type }}</div>
+
+  </div>{% endfor %}
+
+</section>{% endif %}
