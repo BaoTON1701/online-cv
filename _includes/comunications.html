@@ -15,21 +15,26 @@
     {{ communications.intro | markdownify }}
   </div>{% endif %}
 
-  {% for comm in communications.entries %}
-  <div class="item">
-    
-    <div class="communication-title">
-      {% if comm.link %}
-        <a href="{{ comm.link }}" target="_blank">{{ comm.title }}</a>
-      {% else %}
-        {{ comm.title }}
-      {% endif %}
-    </div>
-    
-    <div class="communication-time">{{ comm.time }}</div>
+  <ul class="list-unstyled">
+    {% for comm in communications.entries %}
+    <div class="item">
+      <li>
+        {% if comm.link %}
+          <a href="{{ comm.link }}" target="_blank">{{ comm.title }}</a>
+        {% else %}
+          {{ comm.title }}
+        {% endif %}
+      </li>
+      
+      <div class="publication-authors">
+        {{ comm.type }}
+      </div>
+      
+      <div class="publication-conference">
+        {{ comm.time }}
+      </div>
 
-    <div class="communication-type">{{ comm.type }}</div>
-
-  </div>{% endfor %}
+    </div>{% endfor %}
+  </ul>
 
 </section>{% endif %}
