@@ -15,9 +15,9 @@
     {{ communications.intro | markdownify }}
   </div>{% endif %}
 
-  <ul class="list-unstyled">
+  <ul>
     {% for comm in communications.entries %}
-    <div class="item">
+    <div class="item" style="margin-bottom: 15px;">
       <li>
         {% if comm.link %}
           <a href="{{ comm.link }}" target="_blank">{{ comm.title }}</a>
