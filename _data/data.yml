@@ -50,7 +50,7 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Gaming
+    - item: Travelling
       link:
 
 
@@ -159,68 +159,24 @@ experiences:
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Training for Analog Design using Open-Source PDK using IHP130 SG13G2 
+    start: May 19th, 2025
+    end: May 23rd, 2025
+    organization: Leibniz Institute for High Performance Microelectronics 
+    #credentialid: 111-222
+    #credentialurl: www.google.com
+    #credentialname: Google
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Course organized by IHP, focus on using Open Source PDK SG13G2 with open-source EDA for doing the analog electronic design (schematic and layout)
 
 projects:
   title: Projects
   intro: >
     You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
+  - title: R&T BiCMOS 
     link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "This IN2P3 R&T project compares available BiCMOS technologies to identify a sustainable and affordable option for high-performance, front-end analog electronics. While many ASICs move to full CMOS, BiCMOS remains essential for low-noise (astronomy) and high-dynamic-range (medical) needs. The project aims to establish figures of merit and streamline future ASIC developments in space, astro, nuclear, and medical applications."
 
 oss:
   title: OSS Contributions
@@ -246,20 +202,20 @@ publications:
     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
+  - title: "Setting Point and Operation Range of a BiCMOS On-Chip BiCMOS Thermometer"
     link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    authors: B. TON, S. CHEN, D. PRELE, M. GONZALEZ
+    journal: Journal of Sensor and Transducer
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  - title: "High Sensitivity On-chip BiCMOS Thermometer with Differential Output and Offset Nulling"
     link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    authors: B. TON, S. CHEN, D. PRELE, M. GONZALEZ
+    conference: "International Conference on Microelectronic Devices and Technologies (MicDAT '2023)At: Funchal (Madeira Island), Portugal"
 
-  - title: A syntax directed compiler for Algol 60
+  - title: Impact of space ionizing environment on the warm front-end electronics flicker noise used for TES/SQUID readout
     link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    authors: B. TON, M.GONZALEZ, H. ARNALDI, S. CHEN, D.PRELE
+    conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
 
 
 skills:
