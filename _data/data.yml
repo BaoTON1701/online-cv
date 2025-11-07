@@ -68,8 +68,7 @@ career-profile:
     I have received the B.S. and M.S. degrees
     from the University of Science and Technology at
     Hanoi (USTH), Vietnam. I'm currently pursuing
-    the Ph.D. degree at the Astroparticle and Cosmol-
-    ogy Laboratory (APC), Université Paris Cité, Paris,
+    the Ph.D. degree at the Astroparticle and Cosmology Laboratory (APC), Université Paris Cité, Paris,
     France, which I started in December 2023. My
     research focuses on the impact of flicker noise on
     the design methodology of SiGe BiCMOS integrated
@@ -119,31 +118,32 @@ experiences:
     time: December 2023 - Present
     company: Université Paris Cité, CNRS, Astroparticule et Cosmologie
     details: |
-      Topic: Flicker noise impact on the design methodology of SiGe BiCMOS integrated circuits for astronomical observations"
+      Topic: Flicker Noise Impact on the Design Methodology of SiGe BiCMOS Integrated Circuits for Astronomical Observations
+      - PhD research focused on analyzing and mitigating flicker noise in SiGe BiCMOS front-end electronics for cryogenic ASIC readouts (SQUID/TES). This involves the complete design, simulation (using Cadence Virtuoso), and characterization of ultra-low-noise components, including LNAs, current sources, and on-chip thermometers. The project includes noise, thermal, and radiation testing to improve the reliability of space-based astronomical instruments (e.g., ATHENA X-IFU).
   - role: Master 2's Internship
     time: March 2023 - September 2023
     company: Labo APC, Bâtiment Condorcet, 10 rue A. Domon et L. Duquet, 75013, Paris, France
     details: |
-      Topic: High Sensitive On-Chip BiMOS Thermometer with Differential readout and Offset Nulling
-      - This is the Master 2 thesis. Study the state of the art of "on-chip" thermometry techniques, specially studying the AD590 thermometer as an existing example. Then establish a trade-offs between technology, supply voltage, power consumption and sensitivity of the design of such an "on-chip" thermometer.
+      Topic: High-Sensitivity On-Chip BiMOS Thermometer with Differential Readout and Offset Nulling
+      - For my Master 2 thesis, I studied the state-of-the-art of "on-chip" thermometry techniques, specifically analyzing the AD590 thermometer as an existing example. My work established the trade-offs between technology, supply voltage, power consumption, and sensitivity for the design of a new "on-chip" thermometer.
   - role: Master 1's Internship 
     time: July 2022 to August 2022
     company: International Centre for Interdisciplinary Science and Education (ICISE)
     details: |
-      Topic: Light Sensitive Photon Sensor SiPM
-      - During the project, my main work is study the properties of the Silicon Photon-multiplier (SiPMs) and do the experiment with SiPMs readout circuit to understand the signal then be able to change its shape. During the internship, we are also able to use the LTspice analog simulation software to simulate the SiPMs, combined with the readout circuit and then provide the simulated signal.
+      Topic: Characterization and Simulation of Silicon Photomultipliers (SiPMs)
+      - My main work was to study the properties of Silicon Photomultipliers (SiPMs) and conduct experiments with their readout circuits to understand and shape the output signal. I also used LTspice analog simulation software to model the SiPMs and their associated readout circuits, providing a complete simulated signal chain.
   - role: Bachelor's Internship 
     time: April 2021 - July 2021
     company: Vietnam National Space Center (VNSC)
     details: |
-      Topic: Image noise and Aberration simulation for astrophotography with Ground-Based Telescope
-      - This is the Bachelor thesis. During the project, my main work is study different types of noises and aberration effect happened during astrophotography process. Noises often came from the capturing, transferring and reading process of the CCD. Beside of that, the aberration came from the curvature of the lens and the structure of the system. My work is to simulate these effect using the Matlab language and Matlab GUI interface.
+      Topic: Image Noise and Aberration Simulation for Astrophotography with a Ground-Based Telescope
+      - For my Bachelor thesis, my main work was to study the different types of noise and aberration effects that occurred during the astrophotography process. These noises often originated from the CCD's capturing, transferring, and reading processes. Additionally, aberrations stemmed from lens curvature and system structure. My responsibility was to simulate these effects using MATLAB and the MATLAB GUI interface.
   - role: Bachelor's Group Project 
     time: December 2020 to February 2021
     company: University of Science and Technology at Hanoi (USTH)
     details: |
-      Topic: Cosmic Ray Muon study for imaging the hiddenstructure
-      - This is the group project of B3 Class, which acts like a prototype for student to prepare their skill before the internship and the final thesis. During the project, my main work is study the nature of Muon particles and its application in radiographyfor imaging the hidden structure. Our team has a chance to studied do some experiments relate to Muon counters such as counting the dark count rate (DCR) with Nuclear Instrumentation Module (NIM) board, discriminator and dual timer and using the generated data using the DRS4 board
+      Topic: Cosmic Ray Muon Study for Imaging Hidden Structures
+      - My main work was to study the nature of Muon particles and their application in radiography for imaging hidden structures. Our team conducted experiments related to Muon counters, such as counting the dark count rate (DCR) using a Nuclear Instrumentation Module (NIM) board, discriminator, and dual timer. We then analyzed the data generated from a DRS4 board.
 
 certifications:
   title: Certifications
@@ -167,29 +167,27 @@ projects:
     link: "#hook"
     tagline: "This IN2P3 R&T project compares available BiCMOS technologies to identify a sustainable and affordable option for high-performance, front-end analog electronics. While many ASICs move to full CMOS, BiCMOS remains essential for low-noise (astronomy) and high-dynamic-range (medical) needs. The project aims to establish figures of merit and streamline future ASIC developments in space, astro, nuclear, and medical applications."
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Here are some of my pubslished papers.
   papers:
   - title: "Setting Point and Operation Range of a BiCMOS On-Chip BiCMOS Thermometer"
     link: "#"
@@ -231,7 +229,7 @@ communications:
       time: '24-26 Jun 2025'
       type: 'Oral presentation'
       link: 'https://indico.cern.ch/event/1441944/'
-      
+
     - title: ' Journée CNES de Jeunes Chercheurs '
       time: '15-17 Oct 2025'
       type: 'Poster presentation'
