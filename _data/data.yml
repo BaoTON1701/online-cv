@@ -159,12 +159,12 @@ certifications:
       Course organized by IHP, focus on using Open Source PDK SG13G2 with open-source EDA for doing the analog electronic design (schematic and layout)
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # title: Projects
+  # intro: >
+  #   You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
   - title: R&T BiCMOS 
-    link: "#hook"
+    link: "https://apc.u-paris.fr/en/rt-bicmos"
     tagline: "This IN2P3 R&T project compares available BiCMOS technologies to identify a sustainable and affordable option for high-performance, front-end analog electronics. While many ASICs move to full CMOS, BiCMOS remains essential for low-noise (astronomy) and high-dynamic-range (medical) needs. The project aims to establish figures of merit and streamline future ASIC developments in space, astro, nuclear, and medical applications."
 
 # oss:
@@ -203,6 +203,11 @@ publications:
     link: "#"
     authors: B. TON, M.GONZALEZ, H. ARNALDI, S. CHEN, D.PRELE
     conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
+  
+  - title: Non Multiplexed SQUID Readout Electronics for Large Detector Arrays
+    link: "#"
+    authors: M.GONZALEZ, D. PRELE, B. TON, G. ONEIL, A. ROY, K. SAKAI, S. BANDLER
+    conference: "IEEE Transactions on Applied Superconductivity, 2026"
 
 communications:
   title: 'Communications'
@@ -225,7 +230,7 @@ communications:
       type: 'Oral presentation'
       link: 'https://web.cvent.com/event/22930724-c2e8-4b3b-93f6-2c7170746141/summary'
 
-    - title: ' Noise sizing of Cryogenic Low-noise Amplifier with IHP technology'
+    - title: ' Journées des Métiers de Electronique de IN2P3 et IRFU'
       time: '24-26 Jun 2025'
       type: 'Oral presentation'
       link: 'https://indico.cern.ch/event/1441944/'
@@ -234,6 +239,11 @@ communications:
       time: '15-17 Oct 2025'
       type: 'Poster presentation'
       link: 'https://cnes-jc2.fr/#programme'
+
+    - title: ' PhD Congress - Congrès Des Doctorants  '
+      time: '30-31 Mar 2026'
+      type: 'Oral presentation'
+      link: 'https://indico.in2p3.fr/event/37931/overview'
 
 skills:
   title: Skills &amp; Proficiency
@@ -255,7 +265,7 @@ skills:
     level: 80%
 
   - name: Catia/ Abaqus 
-    level: 60%
+    level: 40%
     
   - name: Lab measurement
     level: 60%
