@@ -205,23 +205,26 @@ publications:
 
 
   - title: Impact of space ionizing environment on the warm front-end electronics flicker noise used for TES/SQUID readout
-    link: "DOI: 10.1117/12.3020756"
+    link: "#"
     authors: "**B. TON**, M.GONZALEZ, H. ARNALDI, S. CHEN, D.PRELE"
     conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
+    doi: 10.1117/12.3020756
     abstract: > 
       ATHENA will be ESA’s next generation X-ray space observatory. The X-ray integrated field unit (X-IFU) instrument will be ATHENA’s cryogenic spectro-imager. In this work, we present total ionizing dose (TID) tests performed on an application specific integrated circuit (ASIC) designed for X-IFU’s warm front-end electronics (WFEE). In particular, space environment ionizing particles could cause an increase of flicker noise, affecting the performances of such a detection chain readout. We present low frequency noise measurements of the main components of the WFEE (low noise amplifier and slow current DAC) and the effect of total ionizing dose (TID). Five ASICs were irradiated up to 200 krad with a 60Co source. We discuss the impact on the noise of such radiation effects beyond the life-time of a space mission as ATHENA.
   
   - title: ASIC design evolution of ATHENA X-IFU warm front-end electronics
-    link: "DOI: 10.1117/12.3020115"
+    link: "#"
     authors: "S. CHEN, D.PRELE, M. GONZALEZ, J. MESQUIDA, B. COURTY, M. PUNCH, L. ARNALDI, **B. TON**, J. LESREL"
     conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
+    doi: 10.1117/12.3020115
     abstract: > 
       This paper gives a review of the ASIC design evolutions of the WFEE in the context of the ATHENA mission. The development follows the evolutions of the X-IFU instrument detection chain and secures the ASIC technology access continuity by using an ST SiGe 130 nm technology instead of the previous use of an AMS SiGe 350 nm node. First ASIC prototypes based on this ST 130 nm SiGe technology have been developed to answer these technical challenges and meet the new requirements. This paper will give a brief review of these ASICs dedicated to the WFEE.
 
   - title: Non Multiplexed SQUID Readout Electronics for Large Detector Arrays
-    link: "DOI: 10.1109/TASC.2026.3675489"
+    link: "#"
     authors: "M.GONZALEZ, D. PRELE, **B. TON**, G. ONEIL, A. ROY, K. SAKAI, S. BANDLER"
     conference: "IEEE Transactions on Applied Superconductivity, 2026"
+    doi: 10.1109/TASC.2026.3675489
     abstract: > 
       Large arrays of sensors operating at mK temperatures are desirable for applications including X-ray satellites missions. Proposed designs for these arrays often rely on multiplexing methods which read out many sensors while requiring less than one additional wire for every additional sensor. Here, we consider the possibility of non-multiplexed readout of a 10,000 pixel sensor array, where each pixel has an individual DC SQUID read out with an individual analog feedback circuit. We focus on the total power dissipation of a non-multiplexed readout. We present an ASIC-compatible SQUID feedback circuit meeting proposed noise and bandwidth requirements that dissipates only 10mW per channel, or a total of 100W for 10,000 channels. We show that total power consumption cannot be reduced by operating this circuit at the 75K temperature stage of a cryostat. We predict the power load from 60,000 wires running to the base temperature of a cryostat, and show that with resistances compatible with the feedback circuit and feasible with current commercial capabilities that the power loads are below the cooling capacity of a cryostat proposed for an X-ray satellite mission.
 

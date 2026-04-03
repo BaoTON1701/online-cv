@@ -16,8 +16,9 @@
   </div>{% endif %}
 
   {% for publication in publications.papers %}
-  <div class="item" style="margin-bottom: 20px;">
-    <div class="publication-title" style="font-weight: bold; font-size: 1.1em;">
+  <div class="item" style="margin-bottom: 25px; border-bottom: 1px solid #f0f0f0; padding-bottom: 20px;">
+    
+    <div class="publication-title" style="font-weight: bold; font-size: 1.1em; margin-bottom: 2px;">
       {% if publication.link %}
         <a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
       {% else %}
@@ -25,26 +26,36 @@
       {% endif %}
     </div>
 
-    <div class="publication-authors" style="color: #666;">
+    <div class="publication-authors" style="color: #444; font-size: 0.95em;">
       {{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}
     </div>
 
-    <div class="publication-conference" style="font-style: italic; color: #888;">
+    <div class="publication-conference" style="font-style: italic; color: #777; margin-top: 2px;">
       {{ publication.conference }}
     </div>
 
+    {% if publication.doi %}
+    <div class="publication-doi" style="margin-top: 5px; font-size: 0.85em;">
+      <span style="background: #eee; padding: 2px 6px; border-radius: 3px; font-weight: bold; color: #555;">DOI</span>
+      <a href="https://doi.org/{{ publication.doi }}" target="_blank" style="margin-left: 5px; color: #2d6187;">
+        {{ publication.doi }}
+      </a>
+    </div>
+    {% endif %}
+
     {% if publication.abstract %}
-    <div class="publication-abstract" style="margin-top: 8px;">
+    <div class="publication-abstract" style="margin-top: 10px;">
       <details>
-        <summary style="cursor: pointer; font-size: 0.9em; color: #2d6187; font-weight: 500;">
-          View Abstract
+        <summary style="cursor: pointer; font-size: 0.85em; color: #2d6187; font-weight: 600;">
+          [View Abstract]
         </summary>
-        <div class="abstract-content" style="padding: 15px; background: #f8f9fa; border-left: 4px solid #d1d1d1; margin-top: 10px; font-size: 0.95em; line-height: 1.6;">
+        <div class="abstract-content" style="padding: 15px; background: #fdfdfd; border: 1px solid #eee; border-left: 4px solid #2d6187; margin-top: 10px; font-size: 0.9em; line-height: 1.5; color: #444;">
           {{ publication.abstract | markdownify }}
         </div>
       </details>
     </div>
     {% endif %}
+
   </div>{% endfor %}
 
 </section>{% endif %}
