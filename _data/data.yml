@@ -191,22 +191,22 @@ publications:
   papers:
   - title: "Setting Point and Operation Range of a BiCMOS On-Chip BiCMOS Thermometer"
     link: "#"
-    authors: **B. TON**, S. CHEN, D. PRELE, M. GONZALEZ
+    authors: "**B. TON**, S. CHEN, D. PRELE, M. GONZALEZ"
     conference: Journal of Sensor and Transducer, 2023
 
   - title: "High Sensitivity On-chip BiCMOS Thermometer with Differential Output and Offset Nulling"
     link: "#"
-    authors: **B. TON**, S. CHEN, D. PRELE, M. GONZALEZ
+    authors: "**B. TON**, S. CHEN, D. PRELE, M. GONZALEZ"
     conference: "International Conference on Microelectronic Devices and Technologies (MicDAT 2023), Funchal (Madeira Island), Portugal"
 
   - title: Impact of space ionizing environment on the warm front-end electronics flicker noise used for TES/SQUID readout
     link: "#"
-    authors: **B. TON**, M.GONZALEZ, H. ARNALDI, S. CHEN, D.PRELE
+    authors: "**B. TON**, M.GONZALEZ, H. ARNALDI, S. CHEN, D.PRELE"
     conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
   
   - title: Non Multiplexed SQUID Readout Electronics for Large Detector Arrays
     link: "#"
-    authors: M.GONZALEZ, D. PRELE, **B. TON**, G. ONEIL, A. ROY, K. SAKAI, S. BANDLER
+    authors: "M.GONZALEZ, D. PRELE, **B. TON**, G. ONEIL, A. ROY, K. SAKAI, S. BANDLER"
     conference: "IEEE Transactions on Applied Superconductivity, 2026"
 
 communications:
