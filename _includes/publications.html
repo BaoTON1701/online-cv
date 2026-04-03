@@ -13,20 +13,26 @@
   {% if publications.intro %}
   <div class="intro">
     {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
+  </div>{% endif %}
 
   {% for publication in publications.papers %}
   <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
-    {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
-  {% endfor %}
+    <ul class="list-unstyled"> {% if publication.link %}
+        <li><a href="{{ publication.link }}" target="_blank"><strong>{{ publication.title }}</strong></a></li>
+      {% else %}
+        <li><strong>{{ publication.title }}</strong></li>
+      {% endif %}
+    </ul>
+    
+    <div class="publication-authors">
+      {% comment %} 
+        The 'markdownify' filter converts **Name** to <strong>Name</strong>.
+        We strip the <p> tags that markdownify adds automatically to keep it inline.
+      {% endcomment %}
+      {{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}
+    </div>
+    
+    <div class="publication-conference"><em>{{ publication.conference }}</em></div>
+  </div>{% endfor %}
 
-</section><!--//section-->
-{% endif %}
+</section>{% endif %}
