@@ -16,50 +16,35 @@
   </div>{% endif %}
 
   {% for publication in publications.papers %}
-  <div class="item">
-    <ul class="list-unstyled"> {% if publication.link %}
-        <li><a href="{{ publication.link }}" target="_blank"><strong>{{ publication.title }}</strong></a></li>
+  <div class="item" style="margin-bottom: 20px;">
+    <div class="publication-title" style="font-weight: bold; font-size: 1.1em;">
+      {% if publication.link %}
+        <a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
       {% else %}
-        <li><strong>{{ publication.title }}</strong></li>
+        {{ publication.title }}
       {% endif %}
-    </ul>
-    
-    <div class="publication-authors">
-      {% comment %} 
-        The 'markdownify' filter converts **Name** to <strong>Name</strong>.
-        We strip the <p> tags that markdownify adds automatically to keep it inline.
-      {% endcomment %}
+    </div>
+
+    <div class="publication-authors" style="color: #666;">
       {{ publication.authors | markdownify | remove: '<p>' | remove: '</p>' }}
     </div>
-    
-    <div class="publication-conference"><em>{{ publication.conference }}</em></div>
-  </div>{% endfor %}
 
-    <div class="publication-conference"><em>{{ publication.conference }}</em></div>
+    <div class="publication-conference" style="font-style: italic; color: #888;">
+      {{ publication.conference }}
+    </div>
 
     {% if publication.abstract %}
-    <div class="publication-abstract">
-      <details style="margin-top: 10px; cursor: pointer;">
-        <summary style="font-size: 0.85em; color: #545E6E; font-weight: bold;">
+    <div class="publication-abstract" style="margin-top: 8px;">
+      <details>
+        <summary style="cursor: pointer; font-size: 0.9em; color: #2d6187; font-weight: 500;">
           View Abstract
         </summary>
-        <div style="font-size: 0.9em; padding: 10px; background: #f9f9f9; border-left: 3px solid #eee; margin-top: 5px;">
+        <div class="abstract-content" style="padding: 15px; background: #f8f9fa; border-left: 4px solid #d1d1d1; margin-top: 10px; font-size: 0.95em; line-height: 1.6;">
           {{ publication.abstract | markdownify }}
         </div>
       </details>
     </div>
     {% endif %}
-
-  </div>```
-
----
-
-### What this adds:
-* **The `details` tag:** This creates a native HTML toggle. You don't need any extra JavaScript for this to work.
-* **The `summary` tag:** This is the text the user clicks on (e.g., "View Abstract").
-* **Styling:** I added some inline CSS to give it a light gray background and a left border, making it look like a professional blockquote.
-* **Markdown Support:** By using `| markdownify`, you can even use bolding or italics inside your abstract text in the YAML file.
-
-**A quick tip:** Since you ran into that YAML error earlier, just remember that if your abstract starts with a special character or contains a lot of colons, using the `> ` (block scalar) as shown in Step 1 is the safest way to avoid build failures!
+  </div>{% endfor %}
 
 </section>{% endif %}
