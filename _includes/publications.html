@@ -35,4 +35,31 @@
     <div class="publication-conference"><em>{{ publication.conference }}</em></div>
   </div>{% endfor %}
 
+    <div class="publication-conference"><em>{{ publication.conference }}</em></div>
+
+    {% if publication.abstract %}
+    <div class="publication-abstract">
+      <details style="margin-top: 10px; cursor: pointer;">
+        <summary style="font-size: 0.85em; color: #545E6E; font-weight: bold;">
+          View Abstract
+        </summary>
+        <div style="font-size: 0.9em; padding: 10px; background: #f9f9f9; border-left: 3px solid #eee; margin-top: 5px;">
+          {{ publication.abstract | markdownify }}
+        </div>
+      </details>
+    </div>
+    {% endif %}
+
+  </div>```
+
+---
+
+### What this adds:
+* **The `details` tag:** This creates a native HTML toggle. You don't need any extra JavaScript for this to work.
+* **The `summary` tag:** This is the text the user clicks on (e.g., "View Abstract").
+* **Styling:** I added some inline CSS to give it a light gray background and a left border, making it look like a professional blockquote.
+* **Markdown Support:** By using `| markdownify`, you can even use bolding or italics inside your abstract text in the YAML file.
+
+**A quick tip:** Since you ran into that YAML error earlier, just remember that if your abstract starts with a special character or contains a lot of colons, using the `> ` (block scalar) as shown in Step 1 is the safest way to avoid build failures!
+
 </section>{% endif %}
