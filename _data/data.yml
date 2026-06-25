@@ -272,6 +272,16 @@ communications:
       type: 'Oral presentation'
       link: 'https://indico.in2p3.fr/event/37931/overview'
 
+    - title: ' Workshop on Low Temperature Electronics '
+      time: '1-5 Jun 2026'
+      type: 'Oral presentation'
+      link: 'https://ieeecsc.org/event/workshop/17th-ieee-workshop-low-temperature-electronics'
+
+    - title: ' SPIE 2026 Astronomical Telescopes & Instrumentation '
+      time: '5-10 Jul 2026'
+      type: 'Poster presentation'
+      link: 'https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation'
+
 skills:
   title: Skills &amp; Proficiency
 
