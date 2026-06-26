@@ -119,7 +119,7 @@ experiences:
     company: Université Paris Cité, CNRS, Astroparticule et Cosmologie
     details: |
       Topic: Flicker Noise Impact on the Design Methodology of SiGe BiCMOS Integrated Circuits for Astronomical Observations
-      - PhD research focused on analyzing and mitigating flicker noise in SiGe BiCMOS front-end electronics for cryogenic ASIC readouts (SQUID/TES). This involves the complete design, simulation (using Cadence Virtuoso), and characterization of ultra-low-noise components, including LNAs, current sources, and on-chip thermometers. The project includes noise, thermal, and radiation testing to improve the reliability of space-based astronomical instruments (e.g., ATHENA X-IFU).
+      - This work focuses on evaluating flicker noise and radiation impacts in SiGe BiCMOS integrated circuits designed for astronomical TES/SQUID superconducting readout systems. The research involved analyzing experimental noise and radiation data for Warm Front-End Electronics (WFEE v3/v4), alongside modeling input-referred noise profiles in differential amplifiers to extract critical device parameters. Utilizing Cadence Virtuoso and IHP 130nm technology, a fully differential amplifier optimized for cryogenic operations was successfully designed and taped-out. Finally, specialized laboratory test benches were developed to perform precise low-noise characterization at both ambient and cryogenic temperatures, directly validating the design methodology against the stringent noise constraints of astronomical instrumentation.
   - role: Master 2's Internship
     time: March 2023 - September 2023
     company: Labo APC, Bâtiment Condorcet, 10 rue A. Domon et L. Duquet, 75013, Paris, France
