@@ -45,7 +45,7 @@ sidebar:
       level: Professional
 
     - idiom: French
-      level: Elementary 
+      level: Intermediate 
 
   interests:
     title: Interests
@@ -207,7 +207,7 @@ publications:
   - title: Impact of space ionizing environment on the warm front-end electronics flicker noise used for TES/SQUID readout
     link: "#"
     authors: "**B. TON**, M.GONZALEZ, H. ARNALDI, S. CHEN, D.PRELE"
-    conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
+    conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama, Japan, 2024"
     doi: 10.1117/12.3020756
     abstract: > 
       ATHENA will be ESA’s next generation X-ray space observatory. The X-ray integrated field unit (X-IFU) instrument will be ATHENA’s cryogenic spectro-imager. In this work, we present total ionizing dose (TID) tests performed on an application specific integrated circuit (ASIC) designed for X-IFU’s warm front-end electronics (WFEE). In particular, space environment ionizing particles could cause an increase of flicker noise, affecting the performances of such a detection chain readout. We present low frequency noise measurements of the main components of the WFEE (low noise amplifier and slow current DAC) and the effect of total ionizing dose (TID). Five ASICs were irradiated up to 200 krad with a 60Co source. We discuss the impact on the noise of such radiation effects beyond the life-time of a space mission as ATHENA.
@@ -215,7 +215,7 @@ publications:
   - title: ASIC design evolution of ATHENA X-IFU warm front-end electronics
     link: "#"
     authors: "S. CHEN, D.PRELE, M. GONZALEZ, J. MESQUIDA, B. COURTY, M. PUNCH, L. ARNALDI, **B. TON**, J. LESREL"
-    conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama 2024"
+    conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Yokohama, Japan, 2024"
     doi: 10.1117/12.3020115
     abstract: > 
       This paper gives a review of the ASIC design evolutions of the WFEE in the context of the ATHENA mission. The development follows the evolutions of the X-IFU instrument detection chain and secures the ASIC technology access continuity by using an ST SiGe 130 nm technology instead of the previous use of an AMS SiGe 350 nm node. First ASIC prototypes based on this ST 130 nm SiGe technology have been developed to answer these technical challenges and meet the new requirements. This paper will give a brief review of these ASICs dedicated to the WFEE.
@@ -235,6 +235,14 @@ publications:
     doi: 10.1109/TASC.2026.3681410
     abstract: > 
       Cryogenic low-noise amplifiers (LNAs) are critical components for the readout of cryogenic sensors. Placing read-out circuitry in close proximity to the detector at cryogenic temperatures minimizes the length of interconnections prior to the first amplification stage. Low-temperature operation can also significantly enhance LNA performance. However, micro- electronics foundries do not typically provide device models for cryogenic operation. Therefore, characterization and validation of the technology at these temperatures are required before designing a full integrated circuit. This paper proposes a conceptual design for a cryogenic LNA optimized for the readout of a Superconducting Quantum Interference Device (SQUID). To manage power dissipation at cryogenic temperatures, the LNA is also designed for operation at intermediate temperatures. Consequently, the target operating temperature range is from 77K to 300K. The design focuses on a fully differential voltage amplifier to achieve high common-mode noise rejection. The LNA’s first stage is based on a differential pair of SiGe heterojunction bipolar transistors (HBTs), selected for their low-noise and high- speed characteristics. Operating HBTs at cryogenic temperatures enhances both transconductance and current gain. The design is implemented in IHP’s 130 nm SiGe BiCMOS technology. Key cryogenic measurements, including current gain (β) and transconductance efficiency (gm/Ic), are presented and discussed.
+
+- title: Cryogenic low-flicker noise amplifier optimized for superconducting detectors in (x-ray) astronomy
+    link: "#"
+    authors: "**B. TON**, D. PRELE, M. GONZALEZ, J. MESQUIDA, D. CHARRIER, E. BECHETOILLE"
+    conference: "SPIE: Space Telescopes and Instrumentation 2024: Ultraviolet to Gamma Ray, Copenhagen, Denmark, 2026"
+    doi: 10.1117/12.3103711
+    abstract: > 
+      The X-ray Integral Field Unit (X-IFU) aboard the Advanced Telescope for High Energy Astrophysics (Athena) will be the next generation of X-ray observatory, dedicated to studying the "Hot and Energetic Universe." The instrument requires high-resolution spectral imaging (2.5~eV at 6~keV) utilizing thousands of superconducting micro-calorimeter channels. These detectors require a cryogenic readout chain based on low-noise integrated circuits within the Warm Front-End Electronics (WFEE). A primary challenge in this readout architecture is minimizing flicker noise (1/f noise), a difficult-to-avoid, non-fundamental noise source. This paper discusses the optimization of noise performance in a Low Noise Amplifier (LNA) using SiGe BiCMOS technology. We present an analytical noise model accounting for thermal, shot, and flicker noise, alongside an analysis of circuit sizing regarding both geometry and bias current. The proposed design covers a frequency range from DC to 20~MHz, achieving a white noise floor lower than 1 nV/$\sqrt{\text{Hz}}$ down to 1~Hz. Furthermore, this study extends the circuit operation to cryogenic temperatures, investigating the potential for placing front-end electronics closer to the superconducting stages to improve noise performance. Finally, we present an LNA prototype fabricated in IHP 130~nm BiCMOS technology that exhibits promising performance for the readout of superconducting detectors.
 
 communications:
   title: 'Communications'
